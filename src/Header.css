@@ -1,0 +1,32 @@
+.headerWrapper{
+display: inline-flex;
+padding-top: 0.3rem;
+padding-bottom: 0.25rem;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+background: var(--solid-gray-90, #FFFFFA);
+box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.16), 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.headerLogo{
+    width: 5rem;
+}
+
+.buyButton{
+    display: inline-block;
+    border-radius: 2rem;
+    background-color: #FF8F66;
+    color: #24201D;
+    height: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    inline-size: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5PX;
+    margin-right: 10px
+  }
+

@@ -7,15 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: linear-gradient(227deg, rgba(38, 23, 41, 0.80) 10.16%, rgba(159, 110, 184, 0.20) 67.99%, rgba(34, 23, 36, 0.30) 100%), #3C2A3F; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +29,125 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* bodyOne starts here*/
+
+.bodyOne{
+  display: flex;
+  text-align:left;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bodyOneLeft{
+  margin-top: 5vmin;
+  margin-left: 5vmin;
+}
+
+.introduction{
+color: var(--solid-gray-90, #FFFFFA);
+font-variant-numeric: lining-nums proportional-nums;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 325;
+line-height: 140%;
+letter-spacing: -0.3px;
+margin: 0;
+}
+
+.startInvesting{
+  margin-top: 0;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Allison;
+}
+
+.lovedOnes{
+  margin: 0;
+  color: #FF8F66;
+  display: inline;
+}
+
+.buyButton{
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: #FF8F66;
+  color: #24201D;
+  height: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  inline-size: max-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5PX;
+  margin-right: 10px
+}
+
+/* bodyOne ends here*/
+
+
+/* bodyTwo starts here*/
+.bodyTwo{
+  display: flex;
+  text-align:left;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.bodyOneLeft{
+  display: flex;
+  flex-direction: column;
+}
+
+.bulletIcon{
+  height: 2vmin;
+  padding-top: 0.1vmin;
+}
+
+.bulletPointWrapper{
+  display: -webkit-inline-box;
+}
+
+.choiceDetails{
+  padding-left: 1vmin;
+  font-size: calc(10px + 0.25vmin);
+  font-weight: 325;
+  letter-spacing: -0.3px;
+}
+
+.fundNameText{
+  margin: 0;
+}
+
+/* bodyTwo ends here*/
+
+
+/* bodyThree starts here*/
+.bodyThree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3vmin;
+}
+
+.lovedThanks{
+  width: 50vmin
+}
+
+.watchVideo{
+  margin-bottom: 3vmin;
+}
+
+.watchVideoText{
+  text-decoration: underline;
+  margin-top: 0;
+  font-size: x-small;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* bodyThree ends here*/
